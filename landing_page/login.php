@@ -1,5 +1,5 @@
 <?php
-include_once "indexHeader.php";
+include_once "connect.php";
 ?>
 <?php
 $sql = mysqli_query($conn, "SELECT code FROM users WHERE code = '{$_POST['loginID']}'");
@@ -15,7 +15,4 @@ else
    echo "Login ID not found";
 }
 
-?>
-<?php
-include_once "indexFooter.php";
 ?>
