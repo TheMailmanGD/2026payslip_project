@@ -20,17 +20,24 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">User Login</h3></div>
                                     <div class="card-body">
+                                        
                                         <form action="fetch_login_id.php" method="post">
-                                                <input type="text" name="loginID" placeholder="Login ID">
                                             <div class="form-floating mb-3">
-                                                <input type="text" name="password" placeholder="Password">
+                                                <input class="form-control" type="text" name="loginID" id="inputLoginID" placeholder="Login ID" required />
+                                                <label for="inputLoginID">Login ID</label>
+                                            </div>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" type="password" name="password" id="inputPassword" placeholder="Password" required />
+                                                <label for="inputPassword">Password</label>
                                             </div>
                                             <div class="form-check mb-3">
                                                 <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                             </div>
-                                                <input type="submit" value="Login">
+                                            <div class="d-grid gap-2">
+                                                <button class="btn btn-primary btn-block" type="submit">Login</button>
                                             </div>
+                                        </form>
 
                                     
                                     </div>
