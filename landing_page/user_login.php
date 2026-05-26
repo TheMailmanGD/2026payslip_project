@@ -20,21 +20,28 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">User Login</h3></div>
                                     <div class="card-body">
-                                        <form action="login.php" method="post">
-                                                <input type="text" name="loginID" placeholder="Login ID">
-                                                <input type="submit" value="Login">
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-                                                <label for="inputPassword">Password</label>
+                                                <h5>Login ID</h5>
+                                                <form action="login.php" method="post">
+                                                    <input class="form-control" type="text" name="loginID" placeholder="Login ID">
+                                                </form>
                                             </div>
-                                            <div class="d-flex align-items-center justify-content-between mt-4 mb-0">
-                                                <a class="small" href="password.html">Forgot Password?</a>
-                                                <a class="btn btn-primary" href="index.html">Login</a>
+                                            <div class="form-floating mb-3">
+                                                <form>
+                                                    <h5>Password</h5>
+                                                    <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
+                                                    <br>
+                                                    <a class="btn btn-primary" type="submit" value = "Login">Login</a>
+                                                </form>
                                             </div>
-                                        </form>
+
+                                    
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="register.html">Need an account? Sign up!</a></div>
+                                        <div class="small"><a href="register.php">Sign Up</a></div>
+                                    </div>
+                                    <div class="card-footer text-center py-3">
+                                        <div class="small"><a href="index.php">Home</a></div>
                                     </div>
                                 </div>
                             </div>
