@@ -8,7 +8,7 @@ if(mysqli_num_rows($sql) > 0)
    echo ('<form action="index.php" method="post">
    <input type="text" name="password" placeholder="password">
    <input type="submit" value="Login">
-    </form>;');
+    </form>');
 }
 else
 {
