@@ -23,7 +23,7 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="user_login.php">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="user_login.php">User Login</a></li>
                             <!--<form action="login.php" method="post">
                                 <input type="text" name="loginID" placeholder="Login ID">
                                 <input type="submit" value="Login">
