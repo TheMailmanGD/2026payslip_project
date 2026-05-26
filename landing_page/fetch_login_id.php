@@ -3,16 +3,21 @@ include_once "connect.php";
 ?>
 <?php
 $sql = mysqli_query($conn, "SELECT code FROM users WHERE code = '{$_POST['loginID']}'");
-if(mysqli_num_rows($sql) > 0)
+$sql2 = mysqli_query($conn, "SELECT pass FROM users WHERE pass = '{$_POST['password']}'");
+if(mysqli_num_rows($sql) > 0 && mysqli_num_rows($sql2) > 0)
 {
-   echo ('<form action="index.php" method="post">
-   <input type="text" name="password" placeholder="password">
-   <input type="submit" value="Login">
-    </form>');
+   echo("Successfully logged in!");
 }
 else
 {
-   echo "Login ID not found";
+   if(mysqli_num_rows($sql) == 0)
+   {
+       echo "Login ID not found";
+   }
+   else
+   {
+       echo "Incorrect password";
+   }
    //signup page
 }
 

@@ -20,19 +20,16 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">User Login</h3></div>
                                     <div class="card-body">
+                                        <form action="fetch_login_id.php" method="post">
+                                                <input type="text" name="loginID" placeholder="Login ID">
                                             <div class="form-floating mb-3">
-                                                <h5>Login ID</h5>
-                                                <form action="login.php" method="post">
-                                                    <input class="form-control" type="text" name="loginID" placeholder="Login ID">
-                                                </form>
+                                                <input type="text" name="password" placeholder="Password">
                                             </div>
-                                            <div class="form-floating mb-3">
-                                                <form>
-                                                    <h5>Password</h5>
-                                                    <input class="form-control" id="inputPassword" type="password" placeholder="Password" />
-                                                    <br>
-                                                    <a class="btn btn-primary" type="submit" value = "Login">Login</a>
-                                                </form>
+                                            <div class="form-check mb-3">
+                                                <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
+                                                <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
+                                            </div>
+                                                <input type="submit" value="Login">
                                             </div>
 
                                     
