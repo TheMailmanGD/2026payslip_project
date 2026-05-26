@@ -23,14 +23,14 @@
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
-                            <li class="nav-item"><a class="nav-link" href="signup.html">Sign up</a></li>
-                            <form action="login.php" method="post">
+                            <li class="nav-item"><a class="nav-link" href="user_login.php">Login</a></li>
+                            <!--<form action="login.php" method="post">
                                 <input type="text" name="loginID" placeholder="Login ID">
                                 <input type="submit" value="Login">
                             </form>
                             <li class="nav-item"><a class="nav-link" href="admin_login.html">Admin Login</a></li>
 
-                            <!--drop down menu below use it in future if needed!-->
+                            drop down menu below use it in future if needed!-->
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
