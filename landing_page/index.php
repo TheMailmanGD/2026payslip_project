@@ -27,6 +27,7 @@
                             <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
                             <li class="nav-item"><a class="nav-link" href="admin_login.html">Admin Login</a></li>
 
+                            <!--drop down menu below use it in future if needed!-->
                             <!-- <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" id="navbarDropdownPortfolio" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Portfolio</a>
                                 <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownPortfolio">
