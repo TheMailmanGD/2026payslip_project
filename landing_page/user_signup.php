@@ -6,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>User Login</title>
+        <title>Sign up</title>
         <link href="css/styles.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     </head>
@@ -18,31 +18,40 @@
                         <div class="row justify-content-center">
                             <div class="col-lg-5">
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
-                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Welcome, user login 🙂</h3></div>
+                                    <div class="card-header"><h3 class="text-center font-weight-light my-4">Welcome user, sign up 🙂</h3></div>
                                     <div class="card-body">
                                         
                                         <form action="fetch_login_id.php" method="post">
+                                            <h5>First Name</h5>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" type="text" name="loginID" id="inputLoginID" placeholder="Login ID" required />
-                                                <label for="inputLoginID">Login ID</label>
+                                                <input class="form-control" type="text" name="loginID" id="lastName" placeholder="First Name" required />
+                                                <label for="inputLoginID">First Name</label>
                                             </div>
+                                            <h5>Last Name</h5>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" type="password" name="password" id="inputPassword" placeholder="Password" required />
+                                                <input class="form-control" type="text" name="text" id="firstName" placeholder="Last Name" required />
+                                                <label for="inputPassword">Last Name</label>
+                                            </div>
+                                            <h5>Email</h5>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" type="text" name="text" id="email" placeholder="Email" required />
+                                                <label for="inputPassword">Email</label>
+                                            </div>
+                                            <h5>Password | 6-12 characters* </h5>
+                                            <div class="form-floating mb-3">
+                                                <input class="form-control" type="text" name="text" id="created_password" placeholder="Password" required />
                                                 <label for="inputPassword">Password</label>
                                             </div>
-                                            <div class="form-check mb-3">
-                                                <input class="form-check-input" id="inputRememberPassword" type="checkbox" value="" />
-                                                <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
-                                            </div>
+                                            
                                             <div class="d-grid gap-2">
-                                                <button class="btn btn-primary btn-block" type="submit">Login</button>
+                                                <button class="btn btn-primary btn-block" type="submit">Sign up</button>
                                             </div>
                                         </form>
 
                                     
                                     </div>
                                     <div class="card-footer text-center py-3">
-                                        <div class="small"><a href="user_signup.php">Sign Up</a></div>
+                                        <div class="small"><a href="user_login.php">Already have an account?</a></div>
                                     </div>
                                     <div class="card-footer text-center py-3">
                                         <div class="small"><a href="index.php">Home</a></div>
