@@ -20,7 +20,6 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Welcome user, sign up 🙂</h3></div>
                                     <div class="card-body">
-                                        
                                         <form action="fetch_login_id.php" method="post">
                                             <h5>First Name</h5>
                                             <div class="form-floating mb-3">
