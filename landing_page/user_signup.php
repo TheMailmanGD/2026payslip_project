@@ -20,15 +20,16 @@
                                 <div class="card shadow-lg border-0 rounded-lg mt-5">
                                     <div class="card-header"><h3 class="text-center font-weight-light my-4">Welcome user, sign up 🙂</h3></div>
                                     <div class="card-body">
-                                        <form action="fetch_login_id.php" method="post">
+                                        
+                                        <form action="signupaction.php" method="post">
                                             <h5>First Name</h5>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" type="text" name="loginID" id="lastName" placeholder="First Name" required />
+                                                <input class="form-control" type="text" name="text" id="firstName" placeholder="First Name" required />
                                                 <label for="inputLoginID">First Name</label>
                                             </div>
                                             <h5>Last Name</h5>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" type="text" name="text" id="firstName" placeholder="Last Name" required />
+                                                <input class="form-control" type="text" name="text" id="lastName" placeholder="Last Name" required />
                                                 <label for="inputPassword">Last Name</label>
                                             </div>
                                             <h5>Email</h5>
@@ -38,7 +39,7 @@
                                             </div>
                                             <h5>Password | 6-12 characters* </h5>
                                             <div class="form-floating mb-3">
-                                                <input class="form-control" type="text" name="text" id="created_password" placeholder="Password" required />
+                                                <input class="form-control" type="text" name="text" id="password" placeholder="Password" required />
                                                 <label for="inputPassword">Password</label>
                                             </div>
                                             
