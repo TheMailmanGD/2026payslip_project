@@ -18,7 +18,6 @@ else
    {
        echo "Incorrect password";
    }
-   //signup page
 }
 
 ?>
